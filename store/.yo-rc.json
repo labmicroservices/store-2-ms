@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.jhipster.demo.store",
+    "packageFolder": "com/jhipster/demo/store",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [
+      "protractor"
+    ],
+    "websocket": false,
+    "baseName": "store",
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "jhipsterVersion": "6.5.0",
+    "skipUserManagement": false,
+    "clientPackageManager": "npm",
+    "serverPort": "8080",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "jwtSecretKey": "MWRlODc4MzcwZWE2MTJkNjU1Y2MwNGNlYjhkMTYyMDZlMGNiYTE2NzUyNzllNjk1MDI3OWY3YzFjZGRiM2ExMTkwMzU1ZTdjODcxN2Q2N2Y4OWI3MjMxNWY0ZWNmNzMzYzZmZGMxMGJkNzBhNTU0ODk3M2Q5NGNiYWJkYjliMmE=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Product",
+    "ProductCategory",
+    "Customer",
+    "ProductOrder",
+    "OrderItem",
+    "Invoice",
+    "Shipment",
+    "Notification"
+  ]
+}
